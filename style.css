@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Goblin One";
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  font-family: "Goblin One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container{
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    transition: all 0.5s ease-in-out;
+}
